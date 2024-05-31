@@ -7,7 +7,7 @@ VERSION = "1.2.0"
 # python setup.py install
 
 REQUIRES = ['bidict', 'certifi', 'idna', 'numpy', 'pyjsparser', 'PyJWT',
-            'python-dateutil', 'python-dotenv==1.0.0', 'requests', 'six', 'urllib3',
+            'python-dateutil', 'python-dotenv', 'requests', 'six', 'urllib3',
             'websocket-client', 'websockets', 'pandas', 'asyncio']
 
 setup(
