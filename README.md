@@ -10,15 +10,10 @@ Python 2.7+ and 3.0+
 ## Installation & Usage
 ### pip install
 
-If the python package is hosted on a repository, you can install directly using:
 
+To install on a device with Python 3.12.x Versions. Run this Command Below - 
 ```sh
-pip install "git+https://github.com/kbizme/kotak-neo-api-qp.git#egg=neo_api_client-qp"
-```
-
-If you are updating your package please use below command to install
-```sh
-pip install --force-reinstall "git+https://github.com/kbizme/kotak-neo-api-qp.git"
+pip install "git+https://github.com/kbizme/kotak-neo-api-qp.git"
 ```
 (you may need to run `pip` with root permission: `sudo pip install -e "`)
 
