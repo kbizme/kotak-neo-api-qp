@@ -6,9 +6,9 @@ VERSION = "1.2.0"
 #
 # python setup.py install
 
-REQUIRES = ['bidict==0.22.1', 'certifi==22025.1.31', 'chardet==4.0.0', 'idna==2.10', 'numpy==2.2.3', 'pyjsparser==2.7.1', 'PyJWT==2.6.0',
-            'python-dateutil==2.8.2', 'python-dotenv==1.0.0', 'requests==2.25.1', 'six==1.16.0', 'urllib3==1.26.14',
-            'websocket-client==1.5.1', 'websockets==8.1', 'pandas==2.0.0', 'asyncio==3.4.3']
+REQUIRES = ['bidict', 'certifi', 'chardet', 'idna', 'numpy', 'pyjsparser', 'PyJWT',
+            'python-dateutil', 'python-dotenv', 'requests', 'six', 'urllib3',
+            'websocket-client', 'websockets', 'pandas', 'asyncio']
 
 setup(
     name=NAME,
